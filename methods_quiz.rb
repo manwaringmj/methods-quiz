@@ -22,21 +22,21 @@
 
 
 # TODO - write closer_to
-def closer_to(a,b,c)
-	if a < b && c
-		return a
-	elsif b < a && c
-		return b
-	elsif c < a && b
-		return c
-	elsif a == b
-		return 0
-	elsif b == c
-		return 0
-	elsif c == a
-		return 0
-	end
-end
+# def closer_to(a,b,c)
+# 	if a < b && c
+# 		return a
+# 	elsif b < a && c
+# 		return b
+# 	elsif c < a && b
+# 		return c
+# 	elsif a == b
+# 		return 0
+# 	elsif b == c
+# 		return 0
+# 	elsif c == a
+# 		return 0
+# 	end
+# end
 # TODO - write two_as_one?
 
 # TODO - write pig_latinify
