@@ -1,12 +1,12 @@
 
 # TODO - write has_teen?
 def has_teen?(a,b,c)
-	if a||b||c > 12 && a||b||c < 20
-		return true
-	elsif a||b||c < 13 && a||b||c > 19
-		return false
-	end
-end
+# 	if a||b||c > 12 && a||b||c < 20
+# 		return true
+# 	elsif a||b||c < 13 && a||b||c > 19
+# 		return false
+# 	end
+# end
 
 # TODO - write not_string
 
