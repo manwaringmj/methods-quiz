@@ -49,3 +49,23 @@ require './methods_quiz'
 #     closer_to(5,5,5).must_equal(0)
 #   end
 # end
+describe"two as one"do
+  it "first two integers add to the third" do
+    two_as_one?(1,2,3).must_equal(true)
+  end
+  it "last two add to the first" do
+    two_as_one?(5,2,3).must_equal(true)
+  end
+  it "sides add to the middle" do
+    two_as_one?(2,5,3).must_equal(true)
+  end
+  it "first two integers Dont add to the third" do
+    two_as_one?(1,2,4).must_equal(false)
+  end
+  it "last two dont add to the first" do
+    two_as_one?(90,2,3).must_equal(false)
+  end
+  it "sides dont add to the middle" do
+    two_as_one?(2,6,3).must_equal(false)
+  end
+end
