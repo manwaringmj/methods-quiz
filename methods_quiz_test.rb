@@ -32,3 +32,20 @@ require './methods_quiz'
 #     icy_hot?(-12,101).must_equal(true)
 #   end
 # end
+describe "closer to"do
+  it "the number is smaller"do
+    closer_to(5,6,7).must_equal(5)
+  end
+  it "if the number is in the middle" do
+      closer_to(6,2,7).must_equal(2)
+  end
+  it "if the number is at the end" do
+      closer_to(7,6,4).must_equal(4)
+  end
+  it "if two are the same" do
+      closer_to(5,5,6).must_equal(0)
+  end
+  it "if all three are the same" do
+    closer_to(5,5,5).must_equal(0)
+  end
+end
