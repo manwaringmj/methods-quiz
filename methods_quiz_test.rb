@@ -16,3 +16,19 @@ require './methods_quiz'
 #     has_teen?(44,20,12).must_equal(false)
 #   end
 # end
+
+# describe "not_string"do
+#   it "not was add to the front"
+# end
+
+describe "icy or hot"do
+  it "temp both are icy"do
+    icy_hot?(0,-13).must_equal(false)
+  end
+  it "both are hot"do
+    icy_hot?(102,120).must_equal(false)
+  end
+  it "one is icy one is hot"do
+    icy_hot?(-12,101).must_equal(true)
+  end
+end
